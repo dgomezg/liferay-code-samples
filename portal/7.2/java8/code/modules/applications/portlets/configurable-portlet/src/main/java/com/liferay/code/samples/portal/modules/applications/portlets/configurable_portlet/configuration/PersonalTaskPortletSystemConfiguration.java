@@ -14,9 +14,10 @@ import aQute.bnd.annotation.metatype.Meta;
  *
  * Both annotations are processed by the bndtools.
  */
+
 @Meta.OCD(
         //ID must be the fully qualified class name
-        id = "com.liferay.code.samples.portal.modules.applications.portlets.configuration_portlet.PersonalTaskConfiguration",
+        id = "com.liferay.code.samples.portal.modules.applications.portlets.configuration_portlet.configuration.PersonalTaskSystemConfiguration",
         //Adds info to support internazionalization on the configuration UI.
         localization = "content/Language", name = "personal-task-configuration.title"
 )
